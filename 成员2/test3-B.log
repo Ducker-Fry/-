@@ -1,0 +1,134 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-005
+000.000 Log file "C:\Users\30487\Desktop\project\计算机网络实验一：数据链路层协议\-\Lab1-linux\datalink-B.log", TCP port 59144, debug mask 0x03
+000.000 Station B is connecting station A (TCP port 59144) ... Done.
+000.588 New epoch: Tue May 12 16:25:36 2026
+000.588 =================================================================
+000.588 
+000.588 Go-Back-N protocol, build: May 12 2026  16:17:33
+000.588 Send DATA 0 7, ID 20000
+000.850 Send DATA 1 7, ID 20001
+001.095 Send DATA 2 7, ID 20002
+001.171 Recv DATA 0 7, ID 10000
+001.171 Send ACK  0
+001.388 Send DATA 3 0, ID 20003
+001.415 Recv DATA 1 7, ID 10001
+001.415 Send ACK  1
+001.663 Recv DATA 2 7, ID 10002
+001.663 Send ACK  2
+001.663 Recv ACK  0
+001.663 Send DATA 4 2, ID 20004
+001.916 Send DATA 5 2, ID 20005
+001.932 Recv DATA 3 0, ID 10003
+001.932 Send ACK  3
+001.995 Recv ACK  1
+002.051 Recv ACK  2
+002.204 Send DATA 6 3, ID 20006
+002.220 Recv DATA 4 2, ID 10004
+002.220 Send ACK  4
+002.461 Send DATA 7 4, ID 20007
+002.483 Recv DATA 5 2, ID 10005
+002.483 Send ACK  5
+002.483 Recv ACK  3
+002.721 Send DATA 0 5, ID 20008
+002.761 Recv DATA 6 3, ID 10006
+002.761 Send ACK  6
+003.011 Send DATA 1 6, ID 20009
+003.037 Recv DATA 7 3, ID 10007
+003.037 .... 8 packets received, 7550 bps, 94.38%, Err 0 (0.0e+000)
+003.037 Send ACK  7
+003.083 Recv ACK  3
+003.265 Send DATA 2 7, ID 20010
+003.294 Recv DATA 0 3, ID 10008
+003.294 Send ACK  0
+003.331 Recv ACK  3
+003.571 Recv DATA 1 3, ID 10009
+003.571 Send ACK  1
+003.639 Recv ACK  3
+003.852 Recv DATA 2 3, ID 10010
+003.852 Send ACK  2
+003.896 Recv ACK  3
+004.138 Recv DATA 3 3, ID 10011
+004.138 Send ACK  3
+004.166 Recv ACK  3
+004.221 ---- DATA 4 timeout
+004.221 Send DATA 4 3, ID 20004
+004.221 Send DATA 5 3, ID 20005
+004.221 Send DATA 6 3, ID 20006
+004.221 Send DATA 7 3, ID 20007
+004.221 Send DATA 0 3, ID 20008
+004.221 Send DATA 1 3, ID 20009
+004.221 Send DATA 2 3, ID 20010
+004.425 Recv DATA 4 3, ID 10012
+004.425 Send ACK  4
+004.470 Recv ACK  3
+004.655 Recv DATA 5 3, ID 10013
+004.655 Send ACK  5
+004.928 Recv DATA 6 3, ID 10014
+004.928 Send ACK  6
+005.167 Recv DATA 7 3, ID 10015
+005.167 .... 16 packets received, 7620 bps, 95.26%, Err 0 (0.0e+000)
+005.167 Send ACK  7
+005.222 Recv ACK  4
+005.469 Recv DATA 0 4, ID 10016
+005.469 Send ACK  0
+005.511 Recv ACK  5
+005.704 Recv DATA 1 5, ID 10017
+005.704 Send ACK  1
+005.763 Recv ACK  6
+005.971 Recv DATA 2 6, ID 10018
+005.971 Send ACK  2
+006.082 Send DATA 3 2, ID 20011
+006.110 Recv ACK  7
+006.350 Recv ACK  0
+006.350 Send DATA 4 2, ID 20012
+006.381 Recv ACK  1
+006.603 Send DATA 5 2, ID 20013
+006.643 Recv ACK  2
+006.881 Send DATA 6 2, ID 20014
+006.911 Recv DATA 4 2, ID 10012
+006.911 Send ACK  2
+007.136 Send DATA 7 2, ID 20015
+007.152 **** Receiver Error, Bad CRC Checksum
+007.422 Send DATA 0 2, ID 20016
+007.449 Recv DATA 6 2, ID 10014
+007.449 Send ACK  2
+007.666 Send DATA 1 2, ID 20017
+007.682 Recv DATA 7 2, ID 10015
+007.682 Send ACK  2
+007.978 Recv DATA 0 2, ID 10016
+007.978 Send ACK  2
+008.232 Recv DATA 1 2, ID 10017
+008.232 Send ACK  2
+008.505 Recv DATA 2 2, ID 10018
+008.505 Send ACK  2
+008.559 Recv ACK  3
+008.559 Send DATA 2 2, ID 20018
+008.583 Recv ACK  4
+008.602 Recv ACK  5
+008.631 Recv ACK  6
+008.631 Recv ACK  7
+008.661 Recv ACK  0
+008.661 Recv ACK  1
+008.777 Send DATA 3 2, ID 20019
+008.831 Recv DATA 3 1, ID 10019
+008.831 .... 20 packets received, 5143 bps, 64.29%, Err 1 (1.7e-005)
+008.831 Send ACK  3
+009.055 Recv DATA 4 1, ID 10020
+009.055 Send ACK  4
+009.055 Send DATA 4 4, ID 20020
+009.321 Recv DATA 5 1, ID 10021
+009.321 Send ACK  5
+009.351 Send DATA 5 5, ID 20021
+009.584 Recv DATA 6 1, ID 10022
+009.584 Send ACK  6
+009.610 Send DATA 6 6, ID 20022
+009.634 Recv ACK  2
+009.862 Send DATA 7 6, ID 20023
+009.890 Recv DATA 7 2, ID 10023
+009.890 Send ACK  7
+009.916 Recv ACK  3
+010.039 Quit.

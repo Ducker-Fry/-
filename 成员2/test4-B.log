@@ -1,0 +1,118 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-004
+000.000 Log file "C:\Users\30487\Desktop\project\计算机网络实验一：数据链路层协议\-\Lab1-linux\datalink-B.log", TCP port 59144, debug mask 0x03
+000.000 Station B is connecting station A (TCP port 59144) ... Done.
+000.294 New epoch: Tue May 12 16:26:32 2026
+000.294 =================================================================
+000.294 
+000.294 Go-Back-N protocol, build: May 12 2026  16:17:33
+000.294 Send DATA 0 7, ID 20000
+000.560 Send DATA 1 7, ID 20001
+000.806 Send DATA 2 7, ID 20002
+000.831 Recv DATA 0 7, ID 10000
+000.831 Send ACK  0
+001.090 Send DATA 3 0, ID 20003
+001.115 Recv DATA 1 7, ID 10001
+001.115 Send ACK  1
+001.345 Send DATA 4 1, ID 20004
+001.378 Recv DATA 2 7, ID 10002
+001.378 Send ACK  2
+001.414 Recv ACK  0
+001.612 Send DATA 5 2, ID 20005
+001.679 Recv DATA 3 0, ID 10003
+001.679 Send ACK  3
+001.696 Recv ACK  1
+001.885 Send DATA 6 3, ID 20006
+001.939 Recv DATA 4 1, ID 10004
+001.939 Send ACK  4
+002.167 Recv DATA 5 1, ID 10005
+002.167 Send ACK  5
+002.167 Send DATA 7 5, ID 20007
+002.426 Send DATA 0 5, ID 20008
+002.456 Recv DATA 6 1, ID 10006
+002.456 Send ACK  6
+002.482 Recv ACK  1
+002.762 Recv DATA 7 1, ID 10007
+002.762 .... 8 packets received, 7427 bps, 92.84%, Err 0 (0.0e+000)
+002.762 Send ACK  7
+002.802 Recv ACK  1
+003.006 Recv DATA 0 1, ID 10008
+003.006 Send ACK  0
+003.281 **** Receiver Error, Bad CRC Checksum
+003.281 Recv ACK  1
+003.375 ---- DATA 2 timeout
+003.375 Send DATA 2 0, ID 20002
+003.375 Send DATA 3 0, ID 20003
+003.375 Send DATA 4 0, ID 20004
+003.375 Send DATA 5 0, ID 20005
+003.375 Send DATA 6 0, ID 20006
+003.375 Send DATA 7 0, ID 20007
+003.375 Send DATA 0 0, ID 20008
+003.550 Recv DATA 2 1, ID 10010
+003.550 Send ACK  0
+003.550 Recv ACK  1
+003.805 Recv DATA 3 1, ID 10011
+003.805 Send ACK  0
+004.090 **** Receiver Error, Bad CRC Checksum
+004.333 **** Receiver Error, Bad CRC Checksum
+004.366 Recv ACK  2
+004.578 Recv DATA 6 2, ID 10014
+004.578 Send ACK  0
+004.636 Recv ACK  3
+004.849 Recv DATA 7 3, ID 10015
+004.849 Send ACK  0
+004.910 Recv ACK  4
+004.985 Recv ACK  5
+005.205 Send DATA 1 0, ID 20009
+005.249 Recv ACK  6
+005.485 Send DATA 2 0, ID 20010
+005.517 Recv ACK  7
+005.750 Recv DATA 1 7, ID 10009
+005.750 .... 10 packets received, 3943 bps, 49.29%, Err 4 (1.0e-004)
+005.750 Send ACK  1
+005.750 Send DATA 3 1, ID 20011
+006.025 Recv DATA 2 7, ID 10010
+006.025 Send ACK  2
+006.025 Send DATA 4 2, ID 20012
+006.276 Send DATA 5 2, ID 20013
+006.305 Recv DATA 3 7, ID 10011
+006.305 Send ACK  3
+006.561 **** Receiver Error, Bad CRC Checksum
+006.561 Send DATA 6 3, ID 20014
+006.806 Recv DATA 5 7, ID 10013
+006.806 Send ACK  3
+007.106 Recv DATA 6 7, ID 10014
+007.106 Send ACK  3
+007.379 Recv DATA 7 7, ID 10015
+007.379 Send ACK  3
+007.379 Recv ACK  0
+007.379 Send DATA 7 3, ID 20015
+007.410 Recv ACK  0
+007.439 Recv ACK  0
+007.666 Recv DATA 0 0, ID 10016
+007.666 Send ACK  3
+007.716 Recv ACK  0
+007.778 ---- DATA 1 timeout
+007.778 Send DATA 1 3, ID 20009
+007.779 Send DATA 2 3, ID 20010
+007.779 Send DATA 3 3, ID 20011
+007.779 Send DATA 4 3, ID 20012
+007.779 Send DATA 5 3, ID 20013
+007.779 Send DATA 6 3, ID 20014
+007.779 Send DATA 7 3, ID 20015
+007.890 Recv DATA 1 0, ID 10017
+007.890 Send ACK  3
+008.181 Recv DATA 2 0, ID 10018
+008.181 Send ACK  3
+008.611 Recv ACK  1
+008.895 Recv ACK  2
+009.425 Recv ACK  2
+009.613 Send DATA 0 3, ID 20016
+009.859 Recv DATA 4 2, ID 10012
+009.859 .... 13 packets received, 2862 bps, 35.77%, Err 6 (9.9e-005)
+009.859 Send ACK  4
+009.889 Send DATA 1 4, ID 20017
+010.033 Quit.
