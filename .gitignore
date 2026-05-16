@@ -10,7 +10,7 @@
 *.VC.db
 *.opensdf
 *.sdf
-*.log
+
 Debug/
 Release/
 x64/
