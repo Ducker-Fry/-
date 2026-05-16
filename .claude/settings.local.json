@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc -O2 datalink.c protocol.c lprintf.c crc32.c getopt.c -o \"../成员2/datalink.exe\" -lm -lwsock32)",
+      "Bash(./datalink.exe -f -u -t 1200 -p 59147 -l perf-test3-A.log A)",
+      "Bash(./datalink.exe -f -t 1200 -p 59148 -l perf-test4-A.log A)",
+      "Bash(./datalink.exe -f -b 1e-4 -t 1200 -p 59149 -l perf-test5-A.log A)",
+      "Bash(taskkill /f /im datalink.exe)",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $2}')",
+      "Bash(./datalink.exe -u -t 1200 -p 59150 -l perf-test1-A.log A)",
+      "Bash(./datalink.exe -t 1200 -p 59151 -l perf-test2-A.log A)",
+      "Bash(./datalink.exe -f -u -t 1200 -p 59152 -l perf-test3-A.log A)",
+      "Bash(./datalink.exe -f -t 1200 -p 59153 -l perf-test4-A.log A)",
+      "Bash(./datalink.exe -f -b 1e-4 -t 1200 -p 59154 -l perf-test5-A.log A)"
+    ]
+  }
+}
